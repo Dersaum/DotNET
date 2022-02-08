@@ -6,8 +6,8 @@ Cria um novo projeto, arquivo de configuração ou solução com base no modelo 
 
 
 <br>*Extensões do VS CODE sugeridas para serem instaladas
-> C#<br>
-> C# Extensions*
+C#<br>
+C# Extensions*
 
 ## Links
 [Tutorial: Criar um modelo de projeto](https://docs.microsoft.com/pt-br/dotnet/core/tutorials/cli-templates-create-project-template)<br>
