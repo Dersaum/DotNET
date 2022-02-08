@@ -1,6 +1,7 @@
 # .NET
 
-## Aplicativo do Console
+## dotnet new
+Cria um novo projeto, arquivo de configuração ou solução com base no modelo especificado.
 > dotnet new console -n "nome do Aplicativo"
 
 
