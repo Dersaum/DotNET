@@ -1,5 +1,9 @@
 # .NET
 
+## Aplicativo do Console
+> dotnet new console -n 
+
+
 Extensões do VS CODE sugeridas para serem instaladas
 > C#<br>
 > C# Extensions
