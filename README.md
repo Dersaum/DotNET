@@ -1,7 +1,7 @@
 # .NET
 
 ## Aplicativo do Console
-> dotnet new console -n 
+> dotnet new console -n "nome do Aplicativo"
 
 
 Extensões do VS CODE sugeridas para serem instaladas
@@ -9,6 +9,8 @@ Extensões do VS CODE sugeridas para serem instaladas
 > C# Extensions
 
 ## Links
+[Tutorial: Criar um modelo de projeto](https://docs.microsoft.com/pt-br/dotnet/core/tutorials/cli-templates-create-project-template)<br>
+[Comando dotnet new](https://docs.microsoft.com/pt-br/dotnet/core/tools/dotnet-new)<br>
 [Download .NET 6.0](https://dotnet.microsoft.com/en-us/download)<br>
 [Download Visual Studio CODE](https://code.visualstudio.com/)<br>
 [Documentação do .NET](https://docs.microsoft.com/pt-br/dotnet/)<br>
