@@ -5,7 +5,7 @@ Cria um novo projeto, arquivo de configuração ou solução com base no modelo 
 > dotnet new console -n "nome do Aplicativo"
 
 
-<br> ###### *Extensões do VS CODE sugeridas para serem instaladas<br>
+###### *Extensões do VS CODE sugeridas para serem instaladas<br>
 C#<br>
 C# Extensions*<br>
 
