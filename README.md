@@ -5,9 +5,9 @@ Cria um novo projeto, arquivo de configuração ou solução com base no modelo 
 > dotnet new console -n "nome do Aplicativo"
 
 
-## Extensões do VS CODE sugeridas para serem instaladas
+<br>*Extensões do VS CODE sugeridas para serem instaladas
 > C#<br>
-> C# Extensions
+> C# Extensions*
 
 ## Links
 [Tutorial: Criar um modelo de projeto](https://docs.microsoft.com/pt-br/dotnet/core/tutorials/cli-templates-create-project-template)<br>
