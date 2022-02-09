@@ -1,10 +1,12 @@
 # Passos iniciais no prompt de comando
 
-## Agrupamento para o projeto
+Digitar "cmd" na barra de caminho da pasta no windows explorer para abrir o prompt de comando
+
+## Agrupamento para o projeto (Solution)
 
 > dotnet new sln --name ExemploPOO
 
-## Criar diretorio
+## Criar diretório (pasta)
 
 > mkdir ExemploPOO
 
