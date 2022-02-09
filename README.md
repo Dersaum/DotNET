@@ -15,3 +15,4 @@ Cria um novo projeto, arquivo de configuração ou solução com base no modelo 
 [Download .NET 6.0](https://dotnet.microsoft.com/en-us/download)<br>
 [Download Visual Studio CODE](https://code.visualstudio.com/)<br>
 [Documentação do .NET](https://docs.microsoft.com/pt-br/dotnet/)<br>
+[Tipos de paradigmas](https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages)<br>
