@@ -8,7 +8,7 @@
 
 > mkdir ExemploPOO
 
-## Acessar diretório
+## Acessar diretório criado
 
 > cd ExemploPOO
 
