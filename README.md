@@ -18,3 +18,8 @@ Cria um novo projeto, arquivo de configuração ou solução com base no modelo 
 [Documentação do .NET](https://docs.microsoft.com/pt-br/dotnet/)<br>
 [Tipos de paradigmas](https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages)<br>
 [Modificadores de acesso](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers)<br>
+[Modificador sealed](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/sealed)<br>
+[Modificador sealed(2)](https://dotnettutorials.net/lesson/sealed-class-methods-csharp/)<br>
+[System.Object](https://csharp.2000things.com/tag/system-object/)<br>
+[Classe Object](https://www.geeksforgeeks.org/c-sharp-object-class/)<br>
+[Classe Object(2)](https://docs.microsoft.com/pt-br/dotnet/api/system.object?view=net-6.0)<br>
