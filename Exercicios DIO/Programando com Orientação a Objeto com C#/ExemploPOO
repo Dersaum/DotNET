@@ -1,4 +1,5 @@
 using System;
+using ExemploPOO.Interfaces;
 using ExemploPOO.Models;
 
 namespace ExemploPOO
@@ -7,20 +8,66 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
-            //Valores válidos
-            Retangulo r = new Retangulo();
-            r.DefinirMedidas(30, 30);
+            // //7 - Exercício Interfaces na prática
+            // ICalculadora calc = new Calculadora();
+            // System.Console.WriteLine(calc.Multiplicar(30,20));
+
+
+
+            // //6 - Exercício Classe object na prática
+            // Computador comp = new Computador();
+            // System.Console.WriteLine(comp.ToString());
+
+
+
+            // //5 - Exercício Classes abstratas
+            // Corrente c = new Corrente();
+            // c.Creditar(350);
+
+            // c.ExibirSaldo();
+
+
+
+            // //4 - Exercício Polimorfismo em tempo de compilação
+            // Calculadora calc = new Calculadora();
+            // System.Console.WriteLine("Resultado da primeira soma: " + calc.Somar(50,40));
+            // System.Console.WriteLine("Resultado da segunda soma: " + calc.Somar(20,30,50));
             
-            System.Console.WriteLine($"Área: {r.ObterArea()}");
 
-            //Valores inválidos
-            Retangulo r2 = new Retangulo();
-            r2.DefinirMedidas(0, 0);
             
-            System.Console.WriteLine($"Área: {r2.ObterArea()}");
+            // //3 - Exercício Polimorfismo em tempo de execução
+            // Aluno p1 = new Aluno();
+            // p1.Nome = "Pedro";
+            // p1.Idade = 20;
+            // p1.Documento = "123456";
+            // p1.Nota = 10;
+            // p1.Apresentar();
+
+            // Professor p2 = new Professor();
+            // p2.Nome = "Ze";
+            // p2.Idade = 20;
+            // p2.Documento = "123456";
+            // p2.Salario = 2000;
+            // p2.Apresentar();
 
 
-            // Programa Pessoas
+
+            // //2 - Exercício Retangulo
+            // //Valores válidos
+            // Retangulo r = new Retangulo();
+            // r.DefinirMedidas(30, 30);
+            
+            // System.Console.WriteLine($"Área: {r.ObterArea()}");
+
+            // //Valores inválidos
+            // Retangulo r2 = new Retangulo();
+            // r2.DefinirMedidas(0, 0);
+            
+            // System.Console.WriteLine($"Área: {r2.ObterArea()}");
+
+
+
+            //1 - Exercício Programa Pessoas
             // Pessoa p1 = new Pessoa();
 
             // p1.Nome = "Bob";
