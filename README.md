@@ -4,6 +4,8 @@
 Cria um novo projeto, arquivo de configuração ou solução com base no modelo especificado.
 > dotnet new console -n "nome do Aplicativo"
 
+## Atalhos
+> digitar "cw" + tab = System.Console.WriteLine(linha)
 
 #### <br>*Extensões do VS CODE sugeridas para serem instaladas*
 - *C#*<br>
