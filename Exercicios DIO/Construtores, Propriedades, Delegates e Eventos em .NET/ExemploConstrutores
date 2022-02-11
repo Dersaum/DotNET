@@ -1,0 +1,66 @@
+using System;
+using ExemploConstrutores.Models;
+
+namespace ExemploConstrutores
+{
+    class Program
+    {
+        public delegate void Operacao(int x, int y);
+        static void Main(string[] args)
+        {
+            // //9 - Exercício Evento
+            // Matematica m = new Matematica(30, 50);
+            // m.Somar();
+
+
+
+            // //7,8 - Exercício Delegate e Multi Cast Delegate
+            // //Operacao op = Calculadora.Somar;
+            // Operacao op = new Operacao(Calculadora.Somar);
+            // op += Calculadora.Subtrair;
+
+            // op.Invoke(30,20);
+            // //op(10,10);
+
+
+
+            // //6 - Exercício constantes
+            // const double pi = 3.14;
+
+            // System.Console.WriteLine(pi);
+
+
+
+            // //4,5 - Exercício Get e Set
+            //Data data = new Data();
+            // data.SetMes(50);
+
+            //data.Mes = 70;
+            //System.Console.WriteLine(data.Mes);
+
+            //data.ApresentarMes();
+            
+
+
+            // //3 - Exercício Chamando o construtor da herança
+            // Aluno p1 = new Aluno("Pedro", "Jose", "Teste");
+            // p1.Apresentar();
+
+
+
+            // //2 - Exercício Construtor privado
+            // Log log = Log.GetInstance(); 
+
+            // log.PropriedadeLog = "Teste de instancia";
+
+            // Log log2 = Log.GetInstance();
+            // System.Console.WriteLine(log2.PropriedadeLog);
+
+
+
+            // //1 = Exercício Construtor padrão
+            // Pessoa p1 = new Pessoa("Pedro","Jose");
+            // p1.Apresentar();
+        }
+    }
+}
