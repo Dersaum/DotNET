@@ -1,4 +1,5 @@
 using System;
+using ExemploPOO.Helper;
 using ExemploPOO.Interfaces;
 using ExemploPOO.Models;
 
@@ -8,6 +9,53 @@ namespace ExemploPOO
     {
         static void Main(string[] args)
         {
+            // //8 - Exercício Manipulando arquivos
+            // var caminho = "D:\\Downloads\\Programação\\Dev\\C#\\CSharpVSCode\\Programando com Orientação a Objeto com C#\\TrabalhandoComArquivos";
+            // var caminhoPathCombine = Path.Combine(caminho, "Pasta teste 1");
+            // var caminhoArquivo = Path.Combine(caminho, "arquivo-teste-stream.txt");
+            // var caminhoArquivoTeste = Path.Combine(caminho, "arquivo-teste.txt");
+            // var caminhoArquivoTesteCopia = Path.Combine(caminho, "arquivo-teste-bkp.txt");
+            // var novoCaminhoArquivo = Path.Combine(caminho, "Pasta Teste 2", "arquivo-teste-stream.txt");
+
+            // var listaString = new List<string> { "Linha 1", "Linha 2", "Linha 3"};
+            // var listaStringContinuacao = new List<string> { "Linha 4", "Linha 5", "Linha 6"};
+
+            // FileHelper helper = new FileHelper();
+            
+            // //parte 1
+            //helper.ListarDiretorios(caminho);
+            
+            // //parte 2
+            //helper.ListarArquivosDiretorios(caminho);
+            
+            // //parte 3
+            // System.Console.WriteLine("Criando diretório: " + caminhoPathCombine);
+            // helper.CriarDiretorio(caminhoPathCombine);
+            
+            // //parte 4
+            // helper.ApagarDiretorio(caminhoPathCombine, true);
+
+            // //parte 5
+            // helper.CriarArquivoTexto(caminhoArquivo, "Olá! Teste de escrita de arquivo");
+
+            // //parte 6, 7
+            // helper.CriarArquivoTextoStream(caminhoArquivo, listaString);
+            // helper.AdicionarTextoStream(caminhoArquivo, listaStringContinuacao);
+
+            // //parte 8
+            // helper.LerArquivoStream(caminhoArquivo);
+
+            // //parte 9
+            // helper.MoverArquivo(caminhoArquivo, novoCaminhoArquivo, false);
+
+            // //parte 10
+            // helper.CopiarArquivo(caminhoArquivoTeste, caminhoArquivoTesteCopia, false);
+
+            //parte 11
+            //helper.DeletarArquivo(caminhoArquivoTesteCopia);
+
+
+
             // //7 - Exercício Interfaces na prática
             // ICalculadora calc = new Calculadora();
             // System.Console.WriteLine(calc.Multiplicar(30,20));
