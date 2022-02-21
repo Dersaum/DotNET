@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+class DIO 
+{
+  
+  static void Main(string[] args)
+  {
+    
+    string joia = "";
+    List<string> colecao = new List<string>();
+    
+    do
+    {
+      joia = System.Console.ReadLine();
+      
+      if (!string.IsNullOrWhiteSpace(joia))
+      {
+        colecao.Add(joia);
+      }
+      
+      else 
+      {
+        break;
+      }
+      
+    } while (true);
+    
+    IEnumerable<string> joiasDiferentes = colecao.Distinct();
+    System.Console.WriteLine(joiasDiferentes.Count());
+  }
+}
